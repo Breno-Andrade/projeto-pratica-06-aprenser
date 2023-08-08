@@ -3,6 +3,8 @@
 :root {
     font-family: 'Inter', sans-serif;
     font-size: 62.5%;
+    --primary-color: #2a2a2a;
+    --secondary-color: #fed001;
 }
 
 body {
@@ -12,34 +14,28 @@ body {
     height: 100%;
 }
 
-.main {
-    width: 90%;
+.max-width-center {
+    max-width: 127.6rem;
     margin: 0 auto;
-
 }
 
-article {
-    --secundary-color: #fed001;
-}
-
-
-.first-article {
+.banner {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.first-article h1 {
+.banner__title {
     font-size: 4.8rem;
     font-weight: 500;
 }
 
-span {
+.title__span {
     text-transform: uppercase;
 }
 
-.first-article a {
-    background-color: var(--secundary-color);
+.banner__a{
+    background-color: var(--secondary-color);
     text-decoration: none;
     font-size: 1.8rem;
     color: #000;
@@ -47,4 +43,13 @@ span {
     padding: 1.6rem 4.6rem;
     
     border-radius: 4px;
+}
+
+.cursos_container {
+    display: flex;
+    gap: 2rem;
+}
+
+.curso_card {
+    
 }
