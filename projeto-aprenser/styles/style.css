@@ -13,8 +13,25 @@ body {
     height: 100%;
 }
 
-p, a {
+p,
+a {
     font-size: 1.6rem;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+nav a {
+    color: inherit;
 }
 
 .wrapper-container {

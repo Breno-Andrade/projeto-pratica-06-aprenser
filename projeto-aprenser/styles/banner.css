@@ -3,13 +3,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 20rem;
 }
 
 .banner__title {
     font-size: 4.8rem;
+    margin-bottom: 4rem;
 }
 
-.title__span {
+.uppercase {
     text-transform: uppercase;
 }
 
