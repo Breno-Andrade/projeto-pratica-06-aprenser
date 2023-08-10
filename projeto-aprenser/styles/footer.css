@@ -4,19 +4,12 @@ footer {
 }
 
 .footer {
-    box-sizing: border-box;
-    background-color: var(--background-color);
-    
     font-size: 1.6rem;
-    color: var(--color);
-    
-    height: 14.7vh;
-    
-    padding: 2rem;
     text-align: center;
+    padding: 4.5rem;
     
 }
 
 .footer__content a {
-    color: var(--color);
+    color: inherit;
 }
