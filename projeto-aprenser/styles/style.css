@@ -48,7 +48,7 @@ nav a {
 }
 
 .wrapper-container-padded {
-    padding: 12rem;
+    padding-top: 12rem;
 }
 
 .wrapper-container-fixed {
@@ -83,4 +83,8 @@ nav a {
     padding: 1.6rem 4.6rem;
     display: inline-block;
     color: inherit;
+}
+
+.section-btn {
+    margin: 7rem 0;
 }
