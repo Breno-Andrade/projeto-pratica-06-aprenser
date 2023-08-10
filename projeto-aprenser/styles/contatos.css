@@ -1,0 +1,11 @@
+.contatos__title {
+    padding: 7rem 0;
+    text-align: center;
+    margin: 0;
+}
+
+.contatos__address {
+    text-align: right;
+    font: normal 400 1.8rem "Inter", sans-serif;
+    padding: 3rem 0;
+}
