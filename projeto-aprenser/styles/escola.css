@@ -1,1 +1,16 @@
+.escola-section{
+    display: flex;
+    gap: 7rem;
+    padding-top: 6rem;
+}
+
+.escola__title {
+    font-size: 3.2rem;
+    margin-top: 2rem;
+}
+
+.escola__content {
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
 
